@@ -1,0 +1,11 @@
+# Vendo+ ML pipeline - exact versions, so results can be reproduced.
+# Needs Python 3.12 or 3.13 (64-bit). Windows installers exist for every version below.
+# Install inside the project's virtual environment:
+#     python -m pip install -r requirements.txt
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+matplotlib==3.11.2
+pytest==9.1.1

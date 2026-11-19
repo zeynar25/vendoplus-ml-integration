@@ -1,0 +1,10 @@
+# The raw Kaggle file is downloaded by each person (see data/raw/README.txt).
+data/raw/*.csv
+# Everything below is rebuilt by run_pipeline.py.
+data/processed/*
+!data/processed/README.txt
+results/*
+!results/README.txt
+.pytest_cache/
+__pycache__/
+.venv/
